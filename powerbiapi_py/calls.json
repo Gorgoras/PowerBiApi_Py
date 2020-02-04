@@ -1,0 +1,13 @@
+{
+    "get_groups": "groups",
+    "get_datasets":"datasets",
+    "get_reports": "reports",
+    "get_report_token": "reports/{report_id}/GenerateToken",
+    "get_dashboards": "dashboards",
+    "get_dashboard_token": "dashboards/{dashboard_id}/GenerateToken",
+    "get_dataset_by_id": "datasets/{ds_id}",
+    "get_tables": "datasets/{ds_id}/tables",
+    "delete_table_rows": "datasets/{ds_id}/tables/{tbl_name}/rows",
+    "get_tiles": "dashboards/{dashboard_id}/tiles",
+    "get_tile_token": "https://api.powerbi.com/v1.0/myorg/groups/{wks_id}/dashboards/{dashboard_id}/tiles/{tile_id}/GenerateToken"
+}
